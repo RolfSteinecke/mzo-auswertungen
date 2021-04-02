@@ -1,0 +1,147 @@
+2021-03-26 18:25:21,070 [INFO] Programm gestartet
+2021-03-26 18:25:33,848 [INFO] Programm gestartet
+2021-03-26 18:28:59,700 [INFO] Programm gestartet
+2021-03-26 18:29:32,537 [INFO] Programm gestartet
+2021-03-26 18:30:57,506 [INFO] Programm gestartet
+2021-03-26 18:33:23,000 [INFO] Programm gestartet
+2021-03-26 18:36:16,926 [INFO] Programm gestartet
+2021-03-26 18:40:53,901 [INFO] Programm gestartet
+2021-03-26 18:40:53,916 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-26 18:40:54,329 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 1721
+2021-03-26 18:41:11,273 [INFO] Programm gestartet
+2021-03-26 18:41:11,288 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-26 18:41:11,512 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 1721
+2021-03-26 18:41:31,225 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-26 18:42:00,580 [INFO] Programm gestartet
+2021-03-26 18:42:00,593 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-26 18:42:00,815 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 1721
+2021-03-26 18:42:19,122 [INFO] Programm gestartet
+2021-03-26 18:42:19,138 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-26 18:42:19,437 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 1721
+2021-03-26 18:43:54,833 [INFO] Programm gestartet
+2021-03-26 18:43:54,848 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-26 18:43:55,073 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 1721
+2021-03-27 08:06:48,280 [INFO] Programm gestartet
+2021-03-27 08:06:52,708 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:06:53,037 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 08:06:53,040 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:07:06,916 [INFO] Programm gestartet
+2021-03-27 08:07:10,995 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:07:11,229 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 08:07:11,233 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:08:44,338 [INFO] Programm gestartet
+2021-03-27 08:08:44,345 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:08:44,578 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 08:08:44,580 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:08:53,242 [INFO] Programm gestartet
+2021-03-27 08:08:53,249 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:08:53,528 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 08:08:53,531 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:12:07,949 [INFO] Programm gestartet
+2021-03-27 08:12:07,956 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:12:08,280 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 08:12:08,283 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:12:08,293 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:12:08,560 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/articlelog-03-2021.csv HTTP/1.1" 200 4375
+2021-03-27 08:12:08,563 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 08:12:13,405 [INFO] Programm gestartet
+2021-03-27 08:12:13,412 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:12:13,640 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 08:12:13,642 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:12:13,653 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:12:13,914 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/articlelog-03-2021.csv HTTP/1.1" 200 4375
+2021-03-27 08:12:13,916 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 08:12:30,349 [INFO] Programm gestartet
+2021-03-27 08:12:30,356 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:12:30,644 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 08:12:30,647 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:12:30,659 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 08:12:30,862 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/articlelog-03-2021.csv HTTP/1.1" 200 4375
+2021-03-27 08:12:30,864 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 08:16:37,879 [INFO] Programm gestartet
+2021-03-27 08:16:38,299 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:16:38,538 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 08:23:56,207 [INFO] Programm gestartet
+2021-03-27 08:23:56,588 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 08:23:56,797 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 10:54:16,674 [INFO] Programm gestartet
+2021-03-27 10:54:16,682 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 10:54:17,130 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-03-2021.csv HTTP/1.1" 200 2392
+2021-03-27 10:54:17,134 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 10:54:17,144 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-03-27 10:54:17,395 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/articlelog-03-2021.csv HTTP/1.1" 200 4375
+2021-03-27 10:54:17,397 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 10:57:45,431 [INFO] Programm gestartet
+2021-03-27 10:57:45,865 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 10:57:46,179 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 11:04:21,466 [INFO] Programm gestartet
+2021-03-27 11:04:21,782 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 11:04:22,167 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 14:52:01,407 [INFO] Programm gestartet
+2021-03-27 14:52:01,798 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 14:52:02,017 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 14:53:00,927 [INFO] Programm gestartet
+2021-03-27 14:53:01,322 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 14:53:01,582 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-27 14:54:01,460 [INFO] Programm gestartet
+2021-03-27 14:54:01,670 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-27 14:54:02,423 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:00:01,829 [INFO] Programm gestartet
+2021-03-28 09:00:02,189 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:00:02,485 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:01:01,460 [INFO] Programm gestartet
+2021-03-28 09:01:01,939 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:01:02,272 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:02:01,185 [INFO] Programm gestartet
+2021-03-28 09:02:01,610 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:02:01,937 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:03:00,862 [INFO] Programm gestartet
+2021-03-28 09:04:00,626 [INFO] Programm gestartet
+2021-03-28 09:04:01,029 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:04:01,258 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:05:01,204 [INFO] Programm gestartet
+2021-03-28 09:05:01,456 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:05:01,785 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:06:00,668 [INFO] Programm gestartet
+2021-03-28 09:06:01,002 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:06:01,244 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:07:01,060 [INFO] Programm gestartet
+2021-03-28 09:07:01,426 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:07:01,711 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:08:00,733 [INFO] Programm gestartet
+2021-03-28 09:08:01,150 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:08:01,367 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:09:01,358 [INFO] Programm gestartet
+2021-03-28 09:09:01,617 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:09:01,966 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-28 09:10:00,849 [INFO] Programm gestartet
+2021-03-28 09:10:01,113 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-28 09:10:01,324 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-29 09:00:02,362 [INFO] Programm gestartet
+2021-03-29 09:00:03,630 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-29 09:00:03,866 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-30 09:00:02,298 [INFO] Programm gestartet
+2021-03-30 09:00:02,653 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-30 09:00:02,872 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-03-31 09:00:01,916 [INFO] Programm gestartet
+2021-03-31 09:00:02,499 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-03-2021.csv
+2021-03-31 09:00:02,736 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-03-2021.csv
+2021-04-01 09:00:01,531 [INFO] Programm gestartet
+2021-04-01 09:00:01,884 [INFO] Daten nicht abrufbar: https://www.mieterzeitung.de/fileadmin/secure/loginlog-04-2021.csv
+2021-04-01 09:00:02,140 [INFO] Daten nicht abrufbar: https://www.mieterzeitung.de/fileadmin/secure/articlelog-04-2021.csv
+2021-04-02 09:00:06,872 [INFO] Programm gestartet
+2021-04-02 09:00:07,271 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-04-2021.csv
+2021-04-02 09:00:07,497 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-04-2021.csv
+2021-04-02 10:06:27,646 [INFO] Programm gestartet
+2021-04-02 10:06:27,663 [DEBUG] Starting new HTTPS connection (1): www.mieterzeitung.de:443
+2021-04-02 10:06:27,962 [DEBUG] https://www.mieterzeitung.de:443 "GET /fileadmin/secure/loginlog-04-2021.csv HTTP/1.1" 200 440
+2021-04-02 10:06:27,966 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-04-2021.csv
+2021-04-02 10:07:06,820 [INFO] Programm gestartet
+2021-04-02 10:09:28,931 [INFO] Programm gestartet
+2021-04-02 10:09:28,932 [INFO] Datenabruf für 4-2021
+2021-04-02 10:09:29,173 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-04-2021.csv
+2021-04-02 10:09:29,398 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-04-2021.csv
+2021-04-02 10:17:44,881 [INFO] Programm gestartet
+2021-04-02 10:17:44,881 [INFO] Datenabruf für 4-2021
+2021-04-02 10:17:45,269 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/loginlog-04-2021.csv
+2021-04-02 10:17:45,500 [INFO] Daten abgerufen https://www.mieterzeitung.de/fileadmin/secure/articlelog-04-2021.csv

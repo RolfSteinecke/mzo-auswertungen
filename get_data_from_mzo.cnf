@@ -1,0 +1,5 @@
+[main]
+url_login_data = https://www.mieterzeitung.de/fileadmin/secure/loginlog-{}-{}.csv
+url_article_data = https://www.mieterzeitung.de/fileadmin/secure/articlelog-{}-{}.csv
+user = aemka
+pw = aemka
