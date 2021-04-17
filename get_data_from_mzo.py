@@ -10,6 +10,10 @@ import requests
 from requests.auth import HTTPBasicAuth
 import configparser
 
+# Datenpfad anlegen
+if not os.path.exists('./data/'):
+    os.makedirs('./data/')
+
 # Argumente parsen
 parser = argparse.ArgumentParser()
 parser.add_argument('--debug', action='store_true', help="set debug mode")
@@ -48,17 +52,17 @@ def send_slackmessage(logtext):
     requests.post('https://hooks.slack.com/services/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', headers=headers,
                   data=data)
 
-def get_data(url:str):
+def get_data(url:str, typ:str, monat:str, jahr:int):
     response = requests.get(url, auth=HTTPBasicAuth('aemka', 'aemka'))
 
     if response.status_code == 200:
-        logger.info(f'Daten abgerufen {url}')
-        df = pd.read_csv(io.StringIO(response.content.decode('utf-8')), delimiter=';')
-        return df
+        datei = f'./data/{typ}-{jahr}-{monat}.csv'
+        with open(datei, 'w') as f:
+            f.write(response.content.decode('utf-8'))
+        logger.info(f'Daten abgerufen {url} und in {datei} geschrieben')
     else:
         logger.info(f'Daten nicht abrufbar: {url}')
         send_slackmessage(f'Datenabruf fehlgeschlagen {url} - {response.status_code}')
-        return None
 
 
 # Nachricht in OSX anzeigen
@@ -103,33 +107,15 @@ if __name__ == '__main__':
     else:
         monat_str = f'0{str(monat)}'
 
-    logger.info(f'Datenabruf für {monat}-{jahr}')
+    logger.info(f'Datenabruf für {monat_str}-{jahr}')
 
     # Login-Daten holen
     url = url_login_data.format(monat_str, jahr)
-    df = get_data(url)
-    
-    # Login-Daten speichern
-    if os.path.isfile('df_login.pck'):
-        df_login = pd.read_pickle('df_login.pck')
-        df_login.append(df)
-        df_login.drop_duplicates(inplace=True)
-        df_login.to_pickle('df_login.pck')
-    else:
-        df.to_pickle('df_login.pck')
+    get_data(url, 'login', monat_str, jahr)
 
     # Artikel-Daten holen
     url = url_article_data.format(monat_str, jahr)
-    df = get_data(url)
-
-    # Artikel-Daten speichern
-    if os.path.isfile('df_article.pck'):
-        df_article = pd.read_pickle('df_article.pck')
-        df_article.append(df)
-        df_article.drop_duplicates(inplace=True)
-        df_article.to_pickle('df_article.pck')
-    else:
-        df.to_pickle('df_article.pck')
+    df = get_data(url, 'article', monat_str, jahr)
 
 
 # Calling the function
