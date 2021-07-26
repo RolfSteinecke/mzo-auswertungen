@@ -1,5 +1,5 @@
-awesome-streamlit==20200728.1
-pandas==1.2.4
-plotly==4.14.3
-streamlit==0.80.0
-watchdog==2.0.2
+awesome-streamlit
+pandas
+plotly
+streamlit
+watchdog

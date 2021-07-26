@@ -2,3 +2,10 @@
 .idea
 data/*
 .python-version
+src/pages/__pycache__/
+venv
+.python-version
+*.log
+github
+github.pub
+.python-version

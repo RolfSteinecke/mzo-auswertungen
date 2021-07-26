@@ -118,7 +118,7 @@ if __name__ == '__main__':
     df = get_data(url, 'article', monat_str, jahr)
 
 
-# Calling the function
-notify(title    = 'MZO-Statistikdaten',
-       subtitle = 'Datenabruf',
-       message  = 'Daten von mieterzeitung.de abgerufen')
+# Meldung anzeigen (Mac)
+# notify(title    = 'MZO-Statistikdaten',
+#        subtitle = 'Datenabruf',
+#        message  = 'Daten von mieterzeitung.de abgerufen')
