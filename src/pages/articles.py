@@ -10,7 +10,7 @@ def write():
     @st.cache()
     def get_article_data():
         with st.spinner('Lade Daten...'):
-            # Login-Daten lesen
+            # Artikeldaten lesen
             df_list = []
             articles = pd.DataFrame()
             for datei in glob("./data/article-*.csv"):

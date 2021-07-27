@@ -5,9 +5,12 @@ from datetime import date
 import logging
 import os
 import pickle
+import pandas as pd
 import requests
-from requests.auth import HTTPBasicAuth
 import configparser
+
+from requests.auth import HTTPBasicAuth
+from glob import glob
 
 # Datenpfad anlegen
 if not os.path.exists('./data/'):
@@ -122,6 +125,30 @@ if __name__ == '__main__':
     # Artikel-Daten holen
     url = url_article_data.format(monat_str, jahr)
     df = get_data(url, 'article', monat_str, jahr)
+
+    # Login-Daten aller Monate lesen und in pck schreiben
+    df_list = []
+    df_login = pd.DataFrame()
+    for datei in glob("./data/login-*.csv"):
+        df = pd.read_csv(datei, delimiter=";", parse_dates=["date"])
+        df_list.append(df)
+    df_login = pd.concat(df_list)
+    df_login = df_login.set_index("date").sort_index()
+
+    df_login.to_pickle('login.pck')
+    logger.info('Logindaten in login.pck geschrieben')
+
+    # Artikeldaten aller Monate lesen und in pck schreiben
+    df_list = []
+    articles = pd.DataFrame()
+    for datei in glob("./data/article-*.csv"):
+        df = pd.read_csv(datei, delimiter=";", parse_dates=["date"])
+        df_list.append(df)
+    articles = pd.concat(df_list)
+    articles = articles.set_index("date").sort_index()
+
+    articles.to_pickle('articles.pck')
+    logger.info('Artikeldaten in articles.pck geschrieben')
 
 
 # Meldung anzeigen (Mac)
