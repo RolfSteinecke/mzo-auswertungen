@@ -4,8 +4,7 @@ import argparse
 from datetime import date
 import logging
 import os
-import io
-import pandas as pd
+import pickle
 import requests
 from requests.auth import HTTPBasicAuth
 import configparser
@@ -39,6 +38,13 @@ else:
 
 # Nachricht an slack
 def send_slackmessage(logtext):
+    # Datei mit URLs laden
+    try:
+        with ('crd.pck', 'rb') as f:
+            crd = pickle.load(f)
+    except Exception as e:
+        logger.error(f'Datei crd.pck nicht gefunden {e}')
+
     slackmessage = "MZO-Statistikdaten: {}".format(logtext)
 
     headers = {
@@ -49,7 +55,7 @@ def send_slackmessage(logtext):
     # Nachricht an monitorin-Channel
     # requests.post('https://hooks.slack.com/services/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', headers=headers, data=data)
     # zum testen PM an Rolf
-    requests.post('https://hooks.slack.com/services/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', headers=headers,
+    requests.post(crd['url_rolf'], headers=headers,
                   data=data)
 
 def get_data(url:str, typ:str, monat:str, jahr:int):
