@@ -1,11 +1,10 @@
 .DS_Store
 .idea
-data/*
+data/**
 .python-version
 src/pages/__pycache__/
 venv
 .python-version
-*.log
-github
-github.pub
+*log
+github*
 .python-version
