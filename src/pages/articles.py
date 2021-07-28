@@ -10,12 +10,11 @@ import pickle
 
 # Nachricht an slack
 def send_slackmessage(logtext):
-    # Datei mit URLs laden
+    # URLs laden
     try:
-        with ('crd.pck', 'rb') as f:
-            crd = pickle.load(f)
+        url = st.secrets['url_rolf']
     except Exception as e:
-        print(f'Datei crd.pck nicht gefunden {e}')
+        print(f'URL konnte nicht geladen werden {e}')
 
     slackmessage = "MZO-Statistikdaten: {}".format(logtext)
 
@@ -27,11 +26,10 @@ def send_slackmessage(logtext):
     # Nachricht an monitorin-Channel
     # requests.post('https://hooks.slack.com/services/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', headers=headers, data=data)
     # zum testen PM an Rolf
-    requests.post(crd['url_rolf'], headers=headers,
+    requests.post(url, headers=headers,
                   data=data)
 
 def write():
-    @st.cache()
     def get_article_data():
         with st.spinner('Lade Daten...'):
             try:
