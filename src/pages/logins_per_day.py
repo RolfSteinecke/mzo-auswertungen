@@ -10,6 +10,7 @@ from glob import glob
 # Nachricht an slack
 def send_slackmessage(logtext):
     # URLs laden
+    url = ''
     try:
         url = st.secrets['url_rolf']
     except Exception as e:
