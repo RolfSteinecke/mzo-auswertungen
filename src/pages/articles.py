@@ -4,21 +4,43 @@ from glob import glob
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import requests
+import pickle
 
+
+# Nachricht an slack
+def send_slackmessage(logtext):
+    # Datei mit URLs laden
+    try:
+        with ('crd.pck', 'rb') as f:
+            crd = pickle.load(f)
+    except Exception as e:
+        print(f'Datei crd.pck nicht gefunden {e}')
+
+    slackmessage = "MZO-Statistikdaten: {}".format(logtext)
+
+    headers = {
+        'Content-type': 'application/json',
+    }
+
+    data = '{"text": " ' + slackmessage + '"}'
+    # Nachricht an monitorin-Channel
+    # requests.post('https://hooks.slack.com/services/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', headers=headers, data=data)
+    # zum testen PM an Rolf
+    requests.post(crd['url_rolf'], headers=headers,
+                  data=data)
 
 def write():
     @st.cache()
     def get_article_data():
         with st.spinner('Lade Daten...'):
-            # Artikeldaten lesen
-            df_list = []
-            articles = pd.DataFrame()
-            for datei in glob("./data/article-*.csv"):
-                print(datei)
-                df = pd.read_csv(datei, delimiter=";", parse_dates=["date"])
-                df_list.append(df)
-            articles = pd.concat(df_list)
-            articles = articles.set_index("date").sort_index()
+            try:
+                with open('articles.pck', 'rb') as f:
+                    articles = pickle.load(f)
+            except Exception as e:
+                send_slackmessage('logins_per_day: Login-Daten konnten nicht gelesen werden')
+                return pd.DataFrame()
+
         return articles
 
     st.header('Artikelstatistiken')
