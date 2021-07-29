@@ -8,4 +8,4 @@ import awesome_streamlit as ast
 def write():
     """Used to write the page in the app.py file"""
     with st.spinner("Loading Home ..."):
-        st.title("Auswertungen aus den Nutzungsdaten von mieterzeitung.de")
+        st.title("Auswertungen aus den Nutzungsdaten von MZO")
