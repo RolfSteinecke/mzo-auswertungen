@@ -57,8 +57,7 @@ def send_slackmessage(logtext):
 
     data = '{"text": " ' + slackmessage + '"}'
     # Nachricht an monitorin-Channel
-    # requests.post('https://hooks.slack.com/services/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', headers=headers, data=data)
-    # zum testen PM an Rolf
+    # PM an Rolf
     requests.post(crd['url_rolf'], headers=headers,
                   data=data)
 
