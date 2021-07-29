@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # coding=UTF-8
 import argparse
-from datetime import date
 import logging
 import os
 import pickle
@@ -11,6 +10,8 @@ import configparser
 
 from requests.auth import HTTPBasicAuth
 from glob import glob
+from datetime import date
+from git import Repo
 
 # Datenpfad anlegen
 if not os.path.exists('./data/'):

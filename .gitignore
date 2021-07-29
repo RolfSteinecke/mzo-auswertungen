@@ -6,7 +6,8 @@ data/**
 src/pages/__pycache__/
 venv
 .python-version
-*log
+**log
 github*
 .python-version
 Support/
+awesome-streamlit/**
